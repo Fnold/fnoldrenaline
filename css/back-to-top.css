@@ -1,6 +1,6 @@
 .back-to-top {
-    width: 70px;
-    height: 70px;
+    width: 92px;
+    height: 92px;
     position: fixed;
     right: 6vw;
     bottom: 11vh;
@@ -10,6 +10,9 @@
     display: block;
     transition: 0.5s;
     cursor: pointer;
+    clip-path: polygon(0 32px,32px 0,calc(100% - 32px) 0,100% 32px,100% calc(100% - 32px),calc(100% - 32px) 100%,32px 100%,0 calc(100% - 32px));
+    background-color: rgba(255, 240, 240, 0.5);
+    
 }
 
 .back-to-top:hover {
