@@ -21,6 +21,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/back-to-top.css">
     <title>FNOLDRENALINE</title>
+    <style>
+        nav img {
+        filter: brightness(83%);
+        }
+        nav a:nth-child(1) img {
+            filter: brightness(100%);
+        }
+        nav img:hover, nav a:nth-child(1) img:hover {
+        filter: brightness(100%) drop-shadow(0 0 8px #fff);
+        }
+    </style>
 </head>
 <body>
     <a onclick="ToTop()">
@@ -28,9 +39,9 @@
     </a>
     <img src="assets/logo.png" id="logo">
     <nav>
-        <div><a href="index"><img src="assets/home.png"></a></div>
-        <div><a href="archive"><img src="assets/archive.png"></a></div>
-        <div><a href="cast"><img src="assets/cast.png"></a></div>
+        <a href="index"><img src="assets/home.png"></a>
+        <a href="archive"><img src="assets/archive.png"></a>
+        <a href="cast"><img src="assets/cast.png"></a>
     </nav>
     <article>
         <section class="right first_info">

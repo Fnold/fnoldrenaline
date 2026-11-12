@@ -19,13 +19,22 @@
     <link rel="stylesheet" href="css/back-to-top.css">
     <title>FNOLDRENALINE</title>
     <style>
-        @media screen and (max-width:800px) {
-        article {
-            max-width: none;
+        nav img {
+        filter: brightness(83%);
         }
+        nav a:nth-child(2) img {
+            filter: brightness(100%);
+        }
+        nav img:hover, nav a:nth-child(2) img:hover {
+        filter: brightness(100%) drop-shadow(0 0 8px #fff);
         }
         section:first-child {
             background-image: none;
+        }
+        @media screen and (max-width:800px) {
+            article {
+                max-width: none;
+            }
         }
     </style>
 </head>
