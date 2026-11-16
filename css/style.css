@@ -36,11 +36,12 @@ nav {
 
 nav img {
     padding: 0 16px;
+    filter: brightness(83%);
     transition: 0.5s;
 }
 
 nav img:hover {
-    filter: drop-shadow(0 0 8px #fff);
+    filter: brightness(100%) drop-shadow(0 0 8px #fff);
 }
 
 article {
